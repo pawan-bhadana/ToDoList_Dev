@@ -127,7 +127,8 @@ void Assert(double actual, double expected, const wchar_t* expr = 0)
 	 } 
 	 catch(std::domain_error err) 
 	 {
-		 std::cout << "  If it THROWS it's a problem!" << std::endl;
+		// done by Pawan Bhadana
+		 std::cout << "  If it THROWS it is a problem!" << std::endl;
 	 }
 	 
 	 std::cout << "\nEnd testing" << std::endl;
